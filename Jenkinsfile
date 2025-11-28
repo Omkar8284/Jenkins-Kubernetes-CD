@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = credentials('k3s-kubeconfig')
+        KUBECONFIG = credentials('k3s-Kubeconfig')
     }
 
     stages {
